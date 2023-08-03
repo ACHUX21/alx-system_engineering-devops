@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x dir{1..3}
+find . -type d -exec chmod +x {} \;
